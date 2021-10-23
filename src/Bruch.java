@@ -4,6 +4,9 @@ public class Bruch {
 
     public Bruch(int numerator, int denominator) {
         // TODO: Setzen Sie die Attribute entsprechend
+        // set variables in constructor
+        this.numerator = numerator;
+        this.denominator = denominator;
     }
 
     public int getNumerator() {
